@@ -1,9 +1,12 @@
 from loguru import logger
 import typer
 
+from util import lead_iterator
+
 
 def main():
-    logger.debug(f"Hello")
+    for lead in lead_iterator():
+        print(lead)
 
 
 if __name__ == "__main__":
