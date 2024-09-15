@@ -9,6 +9,10 @@ LeadGenAI is a workflow to generate and optimize personalized lead generation em
 - **Orchestration with LangGraph**: agents and tools are modelled using LangGraph (gpt-3.5-turbo).
 - **Interactive Notebooks**: All project components are contained within Jupyter Notebooks for ease of use and experimentation.
 
+## WIP
+
+- **Email Optimization**: Implement a basic MORL framework to adjust and optimize the email content iteratively based on feedback from previous email campaigns.
+
 ## Installation
 
 LeadGenAI uses [Poetry](https://python-poetry.org/) for dependency management. Follow the instructions below to set up your environment.
